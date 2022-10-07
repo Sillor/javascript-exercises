@@ -3,7 +3,6 @@ const removeFromArray = function(arr, ...x) {
         for (let j = 0; j < arr.length; j++) {
             if (arr[j] === x[i]) {
                 arr.splice(j, 1);
-                break;
             }
         }
     }
